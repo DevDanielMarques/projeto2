@@ -1,0 +1,60 @@
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #3F3D56;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+span {
+    color: #EE24FF;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #3F3D56;
+    font-size: 15px;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+    color: #3F3D56;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 42px;
+}
+
+body {
+    text-align: center; /* Centraliza o texto dentro do body */}
+
+#hero {
+    width: 592px;
+    margin: 64px auto 72px;
+    text-align: center; /* Garante que o texto dentro do #hero está centralizado */
+}
+
+#hero img {
+    margin-bottom: 72px;
+    display: block; /* Garante que a imagem é tratada como um bloco */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#line {
+    font-weight: bold;
+}
+
+.wave-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    background-image: url('images/teste2_da_wave-removebg-preview.png'); /* Certifique-se de que o caminho está correto */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
